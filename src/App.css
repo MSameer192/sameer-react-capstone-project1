@@ -698,6 +698,7 @@ body {
 
 .number-hading {
   background: -webkit-linear-gradient(rgb(63, 168, 255), rgba(66, 208, 255, 1));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;

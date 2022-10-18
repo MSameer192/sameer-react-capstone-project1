@@ -16,19 +16,19 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active fw-bold me-3" aria-current="page" href="/">HOME</a>
+                            <a className="nav-link active fw-bold me-3" aria-current="page" href="#section-main-container">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bold me-3" href="/">SERVICES</a>
+                            <a className="nav-link active fw-bold me-3" href="#services-container">SERVICES</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bold me-3" href="/">FEATURE</a>
+                            <a className="nav-link active fw-bold me-3" href="#features-container">FEATURE</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bold me-3" href="/">PRICE</a>
+                            <a className="nav-link active fw-bold me-3" href="#pricing-container">PRICE</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active fw-bold me-3" href="/">FAQ</a>
+                            <a className="nav-link active fw-bold me-3" href="#ques-ans-container">FAQ</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle active  fw-bold" href="/" role="button" data-bs-toggle="dropdown"
