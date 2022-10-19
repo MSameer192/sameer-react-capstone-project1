@@ -284,12 +284,6 @@ body {
 
 /* ---------------------Features Container---------------------  */
 
-/* @media only screen and (min-width: 992px) {
-  #features-container {
-    padding: 5% 0% !important;
-  }
-} */
-
 #features-container {
   padding: 5% 1%;
 }
@@ -319,6 +313,16 @@ body {
   color: white;
   border: none;
     transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 575px) {
+  .features-icons-container {
+    padding: 0% 3%;
+  }
+
+  #features-container {
+    padding: 13% 2%;
+  }
 }
 
 /* ---------------------Video Container---------------------  */
