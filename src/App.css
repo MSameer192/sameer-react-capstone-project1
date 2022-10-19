@@ -1,20 +1,14 @@
 /*--------------------for remove spacing--------------------*/
 
-@media only screen and (max-width: 410px) {
-  body {
-    max-width: 100%;
-  }
-}
-
 .container-fluid {
   padding: 0;
+  overflow-x: hidden;
 }
 
 /*--------------------for fonts--------------------*/
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 
 .sub-heading {
@@ -290,11 +284,7 @@ body {
 
 /* ---------------------Features Container---------------------  */
 
-/* @media only screen and (min-width: 992px) {
-  #features-container {
-    padding: 5% 0% !important;
-  }
-} */
+
 
 #features-container {
   padding: 5% 1%;
@@ -325,6 +315,16 @@ body {
   color: white;
   border: none;
     transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 575px) {
+  .features-icons-container {
+    padding: 0% 3%;
+  }
+
+  #features-container {
+    padding: 5% 2%;
+  }
 }
 
 /* ---------------------Video Container---------------------  */
@@ -514,6 +514,44 @@ body {
 
 /* ---------------------Pricing Container---------------------  */
 
+@media only screen and (min-width: 1200px) {
+  /* #pricing-container {
+    padding: 5% 0% !important;
+  } */
+
+  .card-data {
+    line-height: 1rem !important;
+  }
+
+  .card-border {
+    margin-top: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #pricing-container {
+    padding: 10% 0% !important;
+  }
+
+  .card-data {
+    line-height: 1rem !important;
+  }
+
+  .card-border {
+    margin-top: 30px;
+  }
+
+.card-more-detail, .card-text {
+    padding-left: 6%!important;
+  }
+
+  .card-button {
+    margin-left: 10% !important; 
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   #pricing-container {
     padding: 0% 0% !important;
@@ -522,9 +560,6 @@ body {
 
   .card-body {
     padding-left: 10% !important; 
-    /* padding-right: 0% !important;  */
-    /* display: flex;
-    justify-content: center; */
     text-align: left;
 
   }
@@ -547,34 +582,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  #pricing-container {
-    padding: 10% 0% !important;
-    /* max-width: 350px; */
-  }
 
-  .card-data {
-    line-height: 1rem !important;
-  }
 
-  .card-border {
-    margin-top: 30px;
-  }
-}
 
-@media only screen and (min-width: 992px) {
-  /* #pricing-container {
-    padding: 5% 0% !important;
-  } */
-
-  .card-data {
-    line-height: 1rem !important;
-  }
-
-  .card-border {
-    margin-top: 30px;
-  }
-}
 
 #pricing-container {
   background-color: #f9f9ff;
@@ -749,13 +759,14 @@ body {
   color: rgba(66, 208, 255, 1);
 }
 
-.download-button:hover {
+.download-button:hover  {
   background: #3cb0fd;
   text-decoration: none;
   border: 1px solid white;
   color: white;
   transition: all 0.3s ease;
 }
+
 
 a {
   text-decoration: none;
@@ -776,9 +787,11 @@ a {
   color: white;
 }
 
-.button-text:hover {
+.button-text:hover, .button-donload-text {
   color: white;
 }
+
+
 
 /* ----------------------- Footer Cotainer   ----------------------- */
 

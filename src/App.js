@@ -18,17 +18,21 @@ import Video from './components/Video';
 function App() {
   return (
     <>
-      <Navbar/>
-      <MainSection/>
-      <Services/>
-      <About/>
-      <Feature/>
-      <Video/>
-      <Features2/>
-      <PricingSec/>
-      <FAQ/>
-      <DownloadSe/>
-      <Footer/>
+      <div className="container-fluid" id="master-container">
+        <Navbar/>
+        <main>
+          <MainSection/>
+          <Services/>
+          <About/>
+          <Feature/>
+          <Video/>
+          <Features2/>
+          <PricingSec/>
+          <FAQ/>
+          <DownloadSe/>
+          <Footer/>
+        </main>
+      </div>  
     </>
   );
 }
