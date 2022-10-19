@@ -1,6 +1,3 @@
-// import logo from './logo.svg';
-
-
 import About from './About';
 import './App.css';
 import DownloadSe from './components/DownloadSe';
