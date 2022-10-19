@@ -1,5 +1,5 @@
-import About from './About';
 import './App.css';
+import About from './components/About';
 import DownloadSe from './components/DownloadSe';
 import FAQ from './components/FAQ';
 import Feature from './components/Feature';
