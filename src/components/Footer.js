@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Footer() {
+
   return (
     <footer className="container-fluid pt-5" id="footer">
     <div className="container pt-5">
@@ -68,7 +69,7 @@ export default function Footer() {
           <a href="https://www.facebook.com/sameer.farooq.144"><i className="fa-brands fa-facebook-f fa-1x"></i></a>
           <a href="https://github.com/MSameer192"><i className="fa-brands fa-github fa-1x"></i></a>
           <a href="/"><i className="fa-brands fa-twitter fa-1x"></i></a>
-          <a href="www.linkedin.com/in/msameer192"><i className="fa-brands fa-linkedin fa-1x"></i></a>
+          <a href="www.linkedin.com/in/msameer192" target="_blank"><i className="fa-brands fa-linkedin fa-1x"></i></a>
         </div>
       </div>
     </div>
