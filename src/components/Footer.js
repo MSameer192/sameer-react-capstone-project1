@@ -64,12 +64,12 @@ export default function Footer() {
             <span className="color">M. Sameer</span> (Memon's Production)
           </div>
 
-        <div className="col-md-4 Copyright icon-container pb-5 text-end">
-          <a href="https://www.facebook.com/sameer.farooq.144"><i className="fa-brands fa-facebook-f fa-1x"></i></a>
-          <a href="https://github.com/MSameer192"><i className="fa-brands fa-github fa-1x"></i></a>
-          <a href="/"><i className="fa-brands fa-twitter fa-1x"></i></a>
-          <a href="www.linkedin.com/in/msameer192"><i className="fa-brands fa-linkedin fa-1x"></i></a>
-        </div>
+          <div className="col-md-4 Copyright icon-container pb-5 text-end">
+            <a href="https://www.facebook.com/sameer.farooq.144" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-facebook-f fa-1x"></i></a>
+            <a href="https://github.com/MSameer192" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-github fa-1x"></i></a>
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-twitter fa-1x"></i></a>
+            <a href="https://www.linkedin.com/in/msameer192/" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-linkedin fa-1x"></i></a>
+          </div>
       </div>
     </div>
   </footer>
